@@ -1,0 +1,49 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 10px;
+}
+.items {
+    position: relative;
+    left: 15em;
+    margin-left: 24px;
+    font-size: 17px;
+}
+.items:hover{
+    text-decoration: #ae00ff underline;
+    text-underline-offset: 5px;
+    position: relative;
+    top: 8px;
+}
+button {
+    background-color: #ae00ff;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    float: right;
+    margin-right: 13px;
+}
+button:hover{
+    background-color: #8401c1;
+    cursor: pointer;
+}
+
+.CWH {
+    color: #ae00ff;
+    float: left;
+    position: relative;
+    top: 1px;
+    left: 13px;
+    font-size: 24px;
+}
+nav {
+    margin-top: 15px;
+}
